@@ -17,6 +17,11 @@ on:
         environment:
           description: 'Environment to deploy to'
           required: true
+          type: choice
+          options:
+            - Production
+            - Test
+            - Load-Test
 
 
 jobs:
